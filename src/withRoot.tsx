@@ -23,6 +23,16 @@ const theme = createMuiTheme( {
       '400': '#b4b4b4',
     },
   },
+  typography: {
+    fontFamily: [
+      'Open Sans',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join( ',' ),
+  },
 } )
 
 export function withRoot( Component: any ) {
